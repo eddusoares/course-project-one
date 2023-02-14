@@ -9,7 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes:Recipe[] = [
     new Recipe('Chicken Breast', 'Chicken breasts are a great way to make your own chicken.', 
-    'https://www.primaverakitchen.com/wp-content/uploads/2019/03/Garlic-Butter-Baked-Chicken-Breast-Primavera-Kitchen-2-800x1200.jpg'),
+    'https://cdn-icons-png.flaticon.com/512/2005/2005938.png'),
+    new Recipe('Chicken Breast', 'Chicken breasts are a great way to make your own chicken.', 
+    'https://cdn-icons-png.flaticon.com/512/2005/2005938.png'),
   ];
   
   ngOnInit(): void {
